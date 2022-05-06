@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="giohang.css">
+</head>
+
+<script>
+
+
+function 
+
+   
+
+
+
+    function tt(x) {
+        var doi = document.querySelectorAll('table tbody input');
+        console.log(doi);
+        var sl = x.value;
+        console.log(sl);
+
+        var price = x.parentElement.previousElementSibling.innerText;
+
+        var thanhtien = Number(price) * sl;
+
+        x.parentElement.nextElementSibling.innerHTML = tt;
+        TongTien();
+    }
+
+    function TongTien() {
+        var list = document.querySelectorAll("table tbody tr");
+        var tong = 0;
+        for (var i = 0; i < list.length; i++) {
+            var the = list[i];
+            var the_th = the.lastElementChild.innerHTML;
+            tong += Number(the_th);
+        }
+        document.getElementById("tong").innerHTML = tong;
+    }
+
+</script>
+
+<body>
+    <div class="head">
+        <img src="img/logo_playstation.png" alt="">
+        
+    </div>
+
+    <div class="body">
+        <div class="img">
+            <img src="img/nba-2k21-standard-edition-store-art-01-ps5-en-21aug20.png" alt="">
+        </div>
+
+        <div class="btn">
+            <button onclick="btn1()">1</button>
+            <button onclick="btn2()">2</button>
+            <button onclick="btn3()">3</button>
+        </div>
+
+        <div class="title">
+            <p>
+            <h2>Marvel's Spider-Man: Miles Morales
+                Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become
+                his own Spider-Man.</h2>
+                <br>
+            Find out more Horizon Forbidden West Find out more
+            Horizon Forbidden West Find out more
+            Horizon Forbidden West Find out more
+            Horizon Forbidden West pider-Man: Miles Morales
+            Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become
+            his own Spider-Ma
+            </p>
+        </div>
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Mã Sản Phẩm</th>
+                <th>Tên Sản Phẩm</th>
+                <th>Hình Ảnh</th>
+                <th>Số lượng</th>
+                <th>Giá Sản Phẩm</th>
+                <th>Thành tiền</th>
+                <th>Delete</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>PH7413487</td>
+                <td>Tai nghe</td>
+                <td> <img src="img/3D-Pulse-Wireless-Headset-square-image-block-ps5-01-en-09oct20 (1).png" alt=""></td>
+                <td> <input type="number" id="sl"></td>
+                <td> <input type="text" id="price"></td>
+                <td> <input type="text" readonly id="tt"></td>
+                <td> <button>Remove</button></td>
+            </tr>
+
+            <tr>
+                <td>PH2384</td>
+                <td>Camera PS5</td>
+                <td> <img src="img/hd-camera-ps5-image-block-01-en-02jul20.jfif" alt=""></td>
+                <td> <input type="number" id="sl"></td>
+                <td> <input type="text" id="price"></td>
+                <td>  <input type="text" readonly id="tt"></td>
+                <td> <button>Remove</button></td>
+            </tr>
+            <tr>
+                <td>PH8272</td>
+                <td>Media</td>
+                <td> <img src="img/Media-Remote-square-image-block-ps5-01-en-09oct20.png" alt=""></td>
+                <td> <input type="number" id="sl"></td>
+                <td> <input type="text" id="price"></td>
+                <td>  <input type="text" readonly id="tt"></td>
+                <td> <button>Remove</button></td>
+            </tr>
+            <tr>
+                <td>PH6723</td>
+                <td>PS5</td>
+                <td> <img src="img/playstation-5-horizontal-product-shot-01-ps5-en-23nov20.png" alt=""></td>
+                <td> <input type="number" id="sl"></td>
+                <td> <input type="text" id="price"></td>
+                <td>  <input type="text" readonly id="tt"></td>
+                <td> <button>Remove</button></td>
+            </tr>
+            <tr>
+                <td>PH0001</td>
+                <td>PS4 </td>
+                <td> <img src="img/ps4-slim-homepage-image-block-04-en-09oct20.png" alt=""></td>
+                <td> <input type="number" id="sl"></td>
+                <td> <input type="text" id="price" value="300 VND"></td>
+                <td>  <input type="text" readonly id="tt">  </td>
+                <td> <button>Remove</button></td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="tongtien" colspan="5">TỔNG TIỀN</td>
+                <td>  <input type="text" readonly id="tong"></td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <div class="footer">
+        <div class="img">
+            <div class="imgone">
+                <img src="img/ps-bug.png" alt="">
+                <a href=""> Country / Region: Vietnam</a>
+            </div>
+            <div class="imgone">
+                <img src="img/sie.png" alt="">
+                <p>
+                    <span>©2021 Sony Interactive Entertainment Inc. All Rights Reserved.</span>
+                </p>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu1">
+                <ul>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Website tems of use</a></li>
+                    <li><a href="">PlayStation Studios</a></li>
+                    <li><a href="">Legal Document & Notices</a></li>
+                    <li><a href="">About SIE</a></li>
+                    <li><a href="">PlayStation and the</a></li>
+                    <li><a href="">Environment</a></li>
+                </ul>
+
+            </div>
+            <div class="menu2">
+                <ul>
+                    <li><a href="">Health warning</a></li>
+                    <li><a href="">Age ratings</a></li>
+                    <li><a href="">PlayStation careers</a></li>
+                    <li><a href="">Intellectual proprerty notices</a></li>
+                    <li><a href="">Publisher&Developer Relatiobs</a></li>
+                    <li><a href="">Site map</a></li>
+                </ul>
+            </div>
+            <div class="menu3">
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Youtube</a></li>
+                    <li><a href="">Instargram</a></li>
+                    <li><a href="">Twitter</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

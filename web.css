@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+}
+
+.head{
+    height: 30px;
+    background-color: black;  
+}
+
+.head .logo_sony a img{
+    width: 45px;
+    height: 16px;
+    margin-top: 6px;
+    margin-left: 1110px;
+}
+
+/* --------------------------------- */
+
+.home a:hover{
+    color:white;
+    background-color: burlywood;
+}
+
+.home2 a:hover{
+    color: blue;
+}
+
+.nav{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+    
+}
+
+.shared_nav{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+.shared_nav .ps_bug img{
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 55px;
+}
+
+.shared_nav ul{
+   margin-top: 5px;
+}
+
+
+.shared_nav li{
+display: inline;
+padding: 10px;
+}
+
+.shared_nav li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
+/* ------------------------------ HET shared_nav------------------------ */
+.nav{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.nav .search_nav button{
+    height: 40px;
+    width: 75px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: #363636;
+    color: #fff;;
+    font-size: 9px;
+}
+
+
+.nav .search_nav  img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+.home a :hover{
+    color: blue;
+   
+}
+
+/* ----------------------------HET NAV */
+
+
+.nav2 {
+    
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.nav2 img{
+    height: 25px;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+ 
+.nav2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav2 li{
+    display: inline;
+    padding: 25px;
+}
+
+.nav2 ul{
+   margin:20px 95px;
+}
+
+.search_nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+/* ---------------------------------HET NAV2------------------------------------- */
+.banner{
+    
+    background-color: rgb(245, 239, 233);
+}
+
+.banner img{
+    width: 1200px;
+    height: 581px;
+}
+
+.banner .button{
+    text-align: center;
+}
+.banner button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    margin: 15px;
+}
+
+.banner .button button :hover{
+    color: coral;
+}
+
+/* ------------------------HET BANNER------------------- */
+
+
+.box h2 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+
+.box .img img{
+    width: 950px;
+    height: 489px;
+}
+
+.box .img2  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box .img2 .img3 button{
+    width: 250px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color:white;
+    color: red;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+}
+
+.box .img2 img{
+    width: 250px;
+    height: 160spx;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+
+
+.box{
+    text-align: center;
+    background-color:rgb(245, 239, 233) ;
+}
+
+.box span{
+    text-align: center;
+   display: block;
+   margin: 30px 150px;
+  
+}
+
+.box .span1{
+    padding-bottom: 70px;
+}
+
+/* --------------------------------------HET BOX---------------------- */
+
+.box_product .img img{
+    width: 886px;
+    height: 423px;
+}
+
+.body .box .img2{
+   margin-right: 28px;
+}
+
+.box_product .img{
+    text-align: center;
+}
+.box_product .span{
+    text-align: center;
+}
+
+.box_product .span span{
+    font-size: 35px;
+    
+}
+
+.box_product .span p{
+    font-size: 20px;
+    margin-top: 14px;
+    
+}
+
+/* -----------HET BOX PRODUCT----------- */
+
+.contengrid{
+    width: 886px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 27px;
+}
+
+.contengrid img{
+    width: 129px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.contengrid .SSD{
+    text-align: center;
+}
+
+.contengrid .inter{
+    text-align: center;
+}
+.contengrid img{
+    margin-bottom: 34px;
+}
+
+.contengrid h4{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.contengrid p{
+    font-size: 17px;
+}
+
+/* ----------------------HET BOX_PRODUCT------------- */
+
+.box_stuning_games img{
+    width: 1200px;
+}
+
+
+/* -------------------HET BOX STUNING------------- */
+
+.box_PS5{
+    text-align: center;
+}
+
+.box_PS5 .PS5_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+}
+
+.box_PS5 .text_PS5{
+    padding-top: 30px;
+}
+
+.box_PS5 .text_PS5 h3{
+    font-size: 30px;
+    padding-bottom: 25px;
+
+}
+
+.box_PS5 .text_PS5 .stt{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.box_PS5 .text_PS5 h5{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.box_PS5 .img_PS5 img{
+    width: 463px;
+    height: 578px;
+    padding-left: 25px;
+}
+
+.box_PS5 .text_PS5 button{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.box_PS5 button{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 25px;
+    color: white;
+    background-color: tomato;
+    border: 1px solid white;
+    margin-bottom: 45px;
+}
+
+/* --------------------HET BOXPS5--------------------- */
+
+.box_the_game{
+    background-color: rgb(221, 220, 218);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+
+
+.box_the_game .img_PLAY img{
+    width: 869px;
+    height: 488px;
+    margin-top: 40px;
+}
+
+.box_the_game .img_PLAY h2 span{
+    font-size: 40px;
+    font-family: Aria;
+}
+
+/* -----------------------APP_GAME------------------------ */
+
+.box_the_game .contentgrid{
+    padding-bottom: 10  0px;
+}
+
+.box_the_game .ap_GAME .contentgrid  img{
+    width: 450pxpx;
+    height: 250px;
+    margin-right: 10px;
+}
+
+.box_the_game .ap_GAME .contentgrid{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+}
+
+
+.box_the_game .ap_GAME .contentgrid .game h4{
+    font-size: 25px;
+    padding: 20px 70px;
+    
+}
+
+.box_the_game .ap_GAME .contentgrid .game p{
+    font-size: 15px;
+    padding: 5px 70px;
+}
+
+
+.box_the_game .ap_GAME .contentgrid .game button{
+    background-color: rgb(63, 63, 159);
+    color: wheat;
+    border: 1px solid white;
+    width: 120px;
+    height: 36px;
+    border-radius: 19px;
+    margin-top: 10px;
+
+}
+
+/* ---------------------------HET BOX_THE_GAME------------------- */
+
+.box_banner img{
+    width: 1200px;
+    height: 550px;
+    
+}
+
+
+/* --------------------------HET BOX_BANNER------------------ */
+.box_folow{
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+.box_folow h2{
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.box_folow img{
+    width: 125px;
+    height: 140px;
+    padding: 35px 20px;
+}
+
+/* ----------------HET BOX_FOLLOW----------- */
+
+.box_taimen{
+    background-color: rgb(236, 231, 231);
+    text-align: center;
+    padding-bottom:80px;
+}
+
+.box_taimen h2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.box_taimen h4{
+    font-size: 16px;
+}
+
+.box_taimen p{
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.box_taimen img{
+    width: 120px;
+    height: 120px;
+}
+
+/* ------------------------------------------------------------------------------------------------------
+ */
+
+ .footer{
+     height: 500px;
+     background-color: blue;
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+ }
+
+ .footer img{
+     display: block;
+     width: 85px;
+     height: 40px;
+    
+    }
+
+ .footer .imgone{
+     margin: 100px 100px;
+ }
+
+
+ .footer a,
+ .footer span{
+     color: wheat;
+     font-size: 10px;
+     text-decoration: none;
+ }
+
+ .footer .menu{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-top: 130px;
+ }
+
+ .footer li{
+     display: block;
+    
+ }
+
+
+ button:hover {
+     background-color: rgb(47, 52, 38);
+     color: red;
+ }

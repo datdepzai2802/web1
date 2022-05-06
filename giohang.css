@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+  text-align: center;
+  }
+
+table{
+  margin: auto;
+}
+
+
+img{
+
+  width: 140px;
+  height: 120px;
+}
+
+table,
+th,
+td{
+    border-collapse: collapse;
+}
+
+
+thead th{
+    width: 250px;
+    height: 90px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+tbody tr,tbody td{
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    border:none;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+tr td input,
+tr td button{
+  width: 250px;
+  height: 90px;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+button:hover{
+   color: tomato;
+}
+
+tfoot tr td{
+  border: 1px solid black;
+  height: 90px;
+  width: 250px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.head img{
+  width: 1702px;
+  height: 300px;
+}
+
+.body{
+  width: 1702px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+.body img{
+  width: 600px;
+  height: 500px;
+}
+
+
+
+.body button{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left:200px;
+  margin-top: 30px;
+  border-radius: 50px;
+  font-size: 40px;
+  outline: none;
+  border: 1px solid black;
+
+}
+
+.body .btn button :hover{
+  background-color: tomato;
+  color: pink;
+}
+
+.body .title{
+  text-align: center;
+  margin-top: 90px;
+}
+
+.footer{
+  margin-top: 200px;
+  height: 500px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.footer img{
+  display: block;
+  width: 85px;
+  height: 40px;
+ 
+ }
+
+.footer .imgone{
+  margin: 100px 100px;
+}
+
+
+.footer a,
+.footer span{
+  color: wheat;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.footer .menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 130px;
+}
+
+.footer li{
+  display: block;
+ 
+}
